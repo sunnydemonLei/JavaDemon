@@ -10,6 +10,7 @@ public class JavaDemon01 {
         if (a1 == 1){
             System.out.println("数字1");
         }else {
+
             System.out.println("不是数字1");
         }
     }
