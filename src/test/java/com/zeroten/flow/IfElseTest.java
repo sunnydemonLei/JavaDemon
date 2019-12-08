@@ -7,7 +7,7 @@ public class IfElseTest {
     @Test
     public void testIfElse() {
         System.out.println("hello world!" +
-                "\nNever Give Up");
+                " Never Give Up");
 
     }
 
