@@ -1,10 +1,8 @@
 package com.zeroten.flow;
 
-import org.testng.annotations.Test;
-
 public class JavaDemon01 {
 
-    @Test
+
     public void test(){
         int a1 = 1;
         if (a1 == 1){

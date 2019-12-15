@@ -1,6 +1,6 @@
 package com.zeroten.flow;
 
-import org.testng.annotations.Test;
+
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class test {
     题⽬：给定⼀个年龄，然后判断该年龄属于⼉童、⻘年、中年还是⽼年；
             年龄使⽤ int 类型，只⽀持整数。
      */
-    @Test
+
     public static  void test11(){
         Scanner sc = new Scanner(System.in);
          int num = sc.nextInt();
@@ -19,7 +19,7 @@ public class test {
 
 
     //测试吸血鬼数字
-    @Test
+
     public void VampireTest(){
         for (int i = 1001;i < 10000 ; i++){
             TestNumber(com(a(i),b(i)),com(c(i),d(i)),i);
@@ -61,7 +61,7 @@ public class test {
     }
 
     //测试吸血鬼数字
-    @Test
+
     public void testNum(){
         for (int i=10;i<100;i++){
             for (int j=i+1;j<100;j++){
@@ -80,7 +80,7 @@ public class test {
         }
     }
 
-    @Test
+
     public void TestData(){
         isPalindrome(121);
     }
