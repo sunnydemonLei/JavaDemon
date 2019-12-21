@@ -5,7 +5,14 @@ public class ParentClass {
     private int age;
     private String sex;
 
+    static {
+        System.out.println("父类静态代码块");
+    }
+    {
+        System.out.println("父类代码块");
+    }
     public ParentClass() {
+        System.out.println("父类的无参构造函数");
     }
 
     public ParentClass(String name, int age, String sex) {

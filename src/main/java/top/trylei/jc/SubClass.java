@@ -1,5 +1,7 @@
 package top.trylei.jc;
 
+
+
 /*
     继承（inheritance），就是基于已经存在的类构造一个新类，新类继承了已存在类的方法和域，并在此基础上还可以添加新的方法和域。
     在Java中使用extends关键字来表明一个类继承自另一个类，已存在的类称为超类（superclass）、基类（base class）或父类（parent class）；
@@ -12,6 +14,15 @@ package top.trylei.jc;
 public class SubClass extends ParentClass {
     private String myself;
 
+    static {
+        System.out.println("子类静态代码块");
+    }
+    {
+        System.out.println("子类代码块");
+    }
+    public SubClass(){
+        System.out.println("子类的无参构造函数");
+    }
     public SubClass(String myself) {
         this.myself = myself;
     }
